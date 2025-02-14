@@ -1,0 +1,43 @@
+{
+  "name": "RPG Soundtracks",
+  "title": "RPG Soundtracks",
+  "description": "This is a playlist module for Foundry VTT featuring a compilation of all the music available on the RPG Soundtracks channel.",
+  "version": "1.0",
+  "author": "SrTucano",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "compatibility": {
+    "minimum": "11",
+    "compatible": "12"
+  },
+  "dependencies": [],
+  "conflicts": [],
+  "packs": [],
+  "scripts": [],
+  "styles": [],
+  "languages": [],
+  "socket": false,
+  "playlists": [
+    {
+      "name": "Roll For Initiative",
+      "path": "playlists/rollforinitiative.json"
+    },
+    {
+      "name": "Cities & Villages",
+      "path": "playlists/citiesandvillages.json"
+    },
+    {
+      "name": "Events & Situations",
+      "path": "playlists/eventsandsituations.json"
+    },
+    {
+      "name": "Ambience",
+      "path": "playlists/ambience.json"
+    },
+    {
+      "name": "Tavern Music",
+      "path": "playlists/tavern.json"
+    }
+  ]
+}
